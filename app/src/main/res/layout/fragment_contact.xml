@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    >
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Help line Contacts"
+
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            />
+
+
+
+
+
+
+<TableRow
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Contacts"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Call"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="130dp"
+        />
+
+
+
+
+</TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184551"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/secondColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184554"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/secondColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184555"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/secondColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184556"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/secondColor"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184559"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/secondColor"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number6"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184560"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number7"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184563"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number8"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01401184568"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number9"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01927711784"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call9"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01927711785"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call10"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number11"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01937000011"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call11"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/number12"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="01937110011"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/call12"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:textColor="#000"
+            android:layout_marginLeft="110dp"
+            android:background="@color/firstColor"
+
+            />
+
+
+
+
+    </TableRow>
+
+
+</TableLayout>

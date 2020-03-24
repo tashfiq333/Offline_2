@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="150dp"
+        android:text="Coronavirus Cases:"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="40dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_y="200dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="250dp"
+        android:text="Deaths:"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="40dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_deaths"
+        android:layout_y="295dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="350dp"
+        android:text="Recovered:"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="40dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_recovary"
+        android:layout_y="400dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="550dp"
+        android:text="Resource Link:"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_resource"
+        android:layout_y="600dp"
+        android:textAlignment="center"
+        android:text="https://www.worldometers.info/coronavirus/"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+
+        />
+
+
+
+</AbsoluteLayout>
